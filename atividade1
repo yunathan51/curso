@@ -1,0 +1,30 @@
+import javax.swing.*;
+
+public class aula1po {
+
+    public static void main(String[] args) {
+    int px1 = 0;
+    int py1 = 0;
+    int px2 = 0;
+    int py2 = 0;
+
+        int resultado1 = Integer.parseInt(JOptionPane.showInputDialog("Insira o numero de px1"));
+        int pexis1 = resultado1 + px1;
+        int resultado2 = Integer.parseInt(JOptionPane.showInputDialog("insira o numero de py1"));
+        int pey1 = resultado2 + py1;
+        int resultado3 = Integer.parseInt(JOptionPane.showInputDialog("insira o numero de px2"));
+        int pexis2 = resultado3 + px2;
+        int resultado4 = Integer.parseInt(JOptionPane.showInputDialog("insira o numero de py2"));
+        int pey2 = resultado4 + py2;
+
+      int parte1 = (pexis1-pexis2);
+      Math.pow(parte1, 2);
+      int parte2 = (pey1-pey2);
+      Math.pow(parte2, 2);
+        double resultadofinal = parte1 + parte2;
+        JOptionPane.showMessageDialog(null,"O resultado é" + Math.sqrt(resultadofinal));
+
+
+
+    }
+}
