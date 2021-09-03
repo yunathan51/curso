@@ -1,0 +1,37 @@
+package Roupa;
+
+import javax.swing.JOptionPane;
+
+public class nota {
+
+    public static void main(String[] args) {
+
+        int idade;
+
+        idade = Integer.parseInt(JOptionPane.showInputDialog("Informe a sua idade"));
+
+        if(idade <= 4){
+            JOptionPane.showMessageDialog(null,"Muito jovem!");
+        }
+
+        if((idade >= 5) && (idade <= 7)){
+            JOptionPane.showMessageDialog(null,"Infantil A");
+        }
+
+        if((idade >= 8) && (idade <= 10)){
+            JOptionPane.showMessageDialog(null,"Infantil B");
+        }
+
+        if((idade >= 11) && (idade <= 13)){
+            JOptionPane.showMessageDialog(null,"Juvenil A");
+        }
+
+        if((idade >= 14) && (idade <= 17)){
+            JOptionPane.showMessageDialog(null,"Juvenil B");
+        }
+
+        if(idade >= 18){
+            JOptionPane.showMessageDialog(null,"Adulto");
+        }
+
+    }
