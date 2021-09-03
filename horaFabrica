@@ -1,0 +1,17 @@
+package Roupa;
+
+import javax.swing.*;
+import java.time.Duration;
+
+public class nota {
+    public static void main(String[] args) {
+        Duration total = Duration.ofSeconds(7300);
+        System.out.printf("%d %d %d\n", total.toHoursPart(), total.toMinutesPart(), total.toSecondsPart());
+        System.out.printf("%d %d %d\n", total.toHours(), total.toMinutes(), total.toSeconds());
+
+
+
+
+
+    }
+}
